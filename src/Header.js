@@ -19,12 +19,10 @@ function Header(props){
        setNumber(0);
    }
 
-
     return (<div className="header">
-        <input onChange={inputHandlerTitle} type="text" placeholder="Enter colour" value={titleValue}/>
+        <input onChange={inputHandlerTitle} type="text" placeholder="Enter Colour" value={titleValue}/>
         <input onChange={inputHandlerNumber} type="number" placeholder="Starting number" value={numberValue}/>
         <button onClick={buttonHandler}>add counter</button>
     </div>);
 }
-
 export default Header;
