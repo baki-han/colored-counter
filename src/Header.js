@@ -21,7 +21,7 @@ function Header(props){
 
 
     return (<div className="header">
-        <input onChange={inputHandlerTitle} type="text" placeholder="Counter title" value={titleValue}/>
+        <input onChange={inputHandlerTitle} type="text" placeholder="Enter colour" value={titleValue}/>
         <input onChange={inputHandlerNumber} type="number" placeholder="Starting number" value={numberValue}/>
         <button onClick={buttonHandler}>add counter</button>
     </div>);
