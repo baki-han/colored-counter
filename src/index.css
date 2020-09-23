@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  width:70%;
+  font-weight: 750;
+  margin: auto;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button{
+border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+}
+
+li{
+  text-align: center;
+  list-style: inside;
+  border-radius: 5px;
+  height: 50px;
+  margin: 5px;
+}
+
+li button{
+  margin: 10px 10px 5px 10px;
+
+}
+.header{
+  text-align: center;
+  margin-bottom: 5px;
+}
+input{
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 4px;
+  margin-left: 5px;
+  width: 25%;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.header button{
+  background-color: dodgerblue;
+  margin-bottom: 7px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  margin-left: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
