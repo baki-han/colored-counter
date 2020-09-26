@@ -3,7 +3,7 @@ import React, {useState} from "react";
 function Header(props){
 
     const [titleValue, setTitle] = useState("");
-    const [numberValue, setNumber] = useState(0)
+    const [numberValue, setNumber] = useState("")
 
    const inputHandlerTitle = (event) =>{
        setTitle(event.target.value);

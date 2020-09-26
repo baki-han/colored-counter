@@ -63,7 +63,7 @@ function App() {
 
     //TODO add counter
     const addNewCounter = (value1, value2) => {
-        const obj = Object.create({id: uuidv4(), title: value1, count: value2});
+        const obj = Object.create({id: uuidv4(), title: value1, count: Number(value2)});
         const newCounters = [...counters];
         newCounters.push(obj);
         setCounters(newCounters);

@@ -3,10 +3,10 @@ import React from "react";
 function Lists(props){
 
     const  listsOfCounters = props.counters;
-    //console.log(listsOfCounters)
+
     return (<ul>
         {listsOfCounters.map((el, i)=>
-            <li style={{border : "5px solid " +  el.title}} key={el.id}>
+            <li style={{backgroundColor :  el.title}} key={el.id}>
                {el.title}
                <button onClick={()=> props.minusOne(i)}>-</button>
                {el.count}
